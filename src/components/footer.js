@@ -1,24 +1,11 @@
 import React from "react"
-import { Link } from "gatsby"
-
-const ListLink = props => (
-  <li style={{ display: `inline-block`, marginRight: `1rem` }}>
-    <Link to={props.to}>{props.children}</Link>
-  </li>
-)
+import styles from "./common.module.css"
+import ListLink from "./listLink"
 
 export default function Layout({ children }) {
   console.log({ children })
   return (
-    <div
-      style={{
-        margin: `auto`,
-        maxWidth: 650,
-        padding: `0 1rem`,
-        backgroundColor: `grey`,
-        border: `3px solid red`,
-      }}
-    >
+    <div className={styles.footer}>
       <footer>
         <ul style={{ listStyle: `none`, float: `right` }}>
           <ListLink to="/">Home</ListLink>

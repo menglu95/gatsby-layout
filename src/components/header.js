@@ -1,20 +1,12 @@
 import React from "react"
 import { Link } from "gatsby"
 import ListLink from "./listLink"
+import styles from "./common.module.css"
 
 export default function Header({ children }) {
   console.log({ children })
   return (
-    <div
-      style={{
-        margin: `3rem auto`,
-        marginBottom: `0rem`,
-        maxWidth: 650,
-        padding: `0 1rem`,
-        backgroundColor: `green`,
-        border: `3px solid red`,
-      }}
-    >
+    <div className={styles.header}>
       <header style={{ marginBottom: `1.5rem` }}>
         <Link
           to="/"

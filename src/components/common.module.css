@@ -1,0 +1,33 @@
+.header {
+    margin: 3rem auto;
+    margin-bottom: 0rem;
+    padding: 0 1rem;
+    background-color: green;
+    border: 3px solid red;
+}
+
+.footer {
+    margin: auto;
+    padding: 0 1rem;
+    background-color: grey;
+    border: 3px solid red;
+}
+
+.layout {
+    margin: auto;
+    padding: 0 1rem;
+    background-color: yellow;
+    border: 3px solid red;
+}
+
+.leftsider {
+    width: 30%;
+    position: relative;
+    float: left;
+    border: 3px solid red;
+}
+
+.listlink {
+    display: inline-block;
+    margin-right: 1rem
+}

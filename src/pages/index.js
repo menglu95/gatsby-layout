@@ -13,7 +13,7 @@ export default function Home() {
           Hi! I'm building a fake Gatsby site as part of a tutorial!
         </h1>
         <LeftSider>Here is Leftside content</LeftSider>
-        <p>
+        <p style={{ width: `70%` }}>
           What do I like to do? Lots of course but definitely enjoy building
           websites.
         </p>
